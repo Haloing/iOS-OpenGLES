@@ -35,6 +35,18 @@
      “prepareToDraw”方法，是让“效果Effect”针对当前“Context”的状态进行一些配置，
      它始终把“GL_TEXTURE_PROGRAM”状态定位到“Effect”对象的着色器上。
      */
+    /*
+     “prepareToDraw”方法，是让“效果Effect”针对当前“Context”的状态进行一些配置，
+     它始终把“GL_TEXTURE_PROGRAM”状态定位到“Effect”对象的着色器上。
+     */
+    /*
+     “prepareToDraw”方法，是让“效果Effect”针对当前“Context”的状态进行一些配置，
+     它始终把“GL_TEXTURE_PROGRAM”状态定位到“Effect”对象的着色器上。
+     */
+    /*
+     “prepareToDraw”方法，是让“效果Effect”针对当前“Context”的状态进行一些配置，
+     它始终把“GL_TEXTURE_PROGRAM”状态定位到“Effect”对象的着色器上。
+     */
     [self.baseEffect prepareToDraw];
     
     // 清除缓存
