@@ -13,6 +13,9 @@
 		9DFE5F7D20296A9200D1C141 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DFE5F7C20296A9200D1C141 /* Assets.xcassets */; };
 		9DFE5F8020296A9200D1C141 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DFE5F7E20296A9200D1C141 /* LaunchScreen.storyboard */; };
 		9DFE5F8320296A9200D1C141 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFE5F8220296A9200D1C141 /* main.m */; };
+		9DFE5F952029933300D1C141 /* Shader.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9DFE5F942029933300D1C141 /* Shader.mm */; };
+		9DFE5F9720299C3400D1C141 /* Vertex.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 9DFE5F9620299C3400D1C141 /* Vertex.glsl */; };
+		9DFE5F9920299C5200D1C141 /* Fragment.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 9DFE5F9820299C5200D1C141 /* Fragment.glsl */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		9DFE5F7F20296A9200D1C141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DFE5F8120296A9200D1C141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DFE5F8220296A9200D1C141 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9DFE5F942029933300D1C141 /* Shader.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Shader.mm; sourceTree = "<group>"; };
+		9DFE5F9620299C3400D1C141 /* Vertex.glsl */ = {isa = PBXFileReference; lastKnownFileType = text; path = Vertex.glsl; sourceTree = "<group>"; };
+		9DFE5F9820299C5200D1C141 /* Fragment.glsl */ = {isa = PBXFileReference; lastKnownFileType = text; path = Fragment.glsl; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,9 @@
 				9DFE5F7420296A9200D1C141 /* AppDelegate.m */,
 				9DFE5F7620296A9200D1C141 /* ViewController.h */,
 				9DFE5F7720296A9200D1C141 /* ViewController.m */,
+				9DFE5F9620299C3400D1C141 /* Vertex.glsl */,
+				9DFE5F9820299C5200D1C141 /* Fragment.glsl */,
+				9DFE5F942029933300D1C141 /* Shader.mm */,
 				9DFE5F7920296A9200D1C141 /* Main.storyboard */,
 				9DFE5F7C20296A9200D1C141 /* Assets.xcassets */,
 				9DFE5F7E20296A9200D1C141 /* LaunchScreen.storyboard */,
@@ -130,8 +139,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DFE5F8020296A9200D1C141 /* LaunchScreen.storyboard in Resources */,
+				9DFE5F9720299C3400D1C141 /* Vertex.glsl in Resources */,
 				9DFE5F7D20296A9200D1C141 /* Assets.xcassets in Resources */,
 				9DFE5F7B20296A9200D1C141 /* Main.storyboard in Resources */,
+				9DFE5F9920299C5200D1C141 /* Fragment.glsl in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DFE5F952029933300D1C141 /* Shader.mm in Sources */,
 				9DFE5F7820296A9200D1C141 /* ViewController.m in Sources */,
 				9DFE5F8320296A9200D1C141 /* main.m in Sources */,
 				9DFE5F7520296A9200D1C141 /* AppDelegate.m in Sources */,
